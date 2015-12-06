@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<layout version="0.1.0">
+    <!--
+    Default layout, loads most of the pages
+    -->
+
+    <default translate="label" module="page">
+        <label>All Pages</label>
+
+            <reference name="head">
+                <action method="addItem"><type>skin_css</type><name>css/bootstrap.min.css</name></action>
+                <action method="addItem"><type>skin_css</type><name>css/bootstrap.offcanvas.css</name></action>
+                <action method="addItem"><type>skin_css</type><name>css/font-awesome.min.css</name></action>
+                <action method="addItem"><type>skin_css</type><name>css/styles1.css</name></action>
+            </reference>
+    </default>
+
+            
+</layout>
