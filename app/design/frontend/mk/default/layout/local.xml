@@ -15,6 +15,8 @@ and open the template in the editor.
             <reference name="head">
                 <action method="addItem"><type>skin_css</type><name>css/bootstrap.min.css</name></action>
                 <action method="addItem"><type>skin_css</type><name>css/bootstrap.offcanvas.css</name></action>
+                <action method="addItem"><type>skin_css</type><name>css/aileron.css</name></action>
+                <action method="addItem"><type>skin_css</type><name>css/rupee-fordian.css</name></action>
                 <action method="addItem"><type>skin_css</type><name>css/font-awesome.min.css</name></action>
                 <action method="addItem"><type>skin_css</type><name>css/styles1.css</name></action>
             </reference>
